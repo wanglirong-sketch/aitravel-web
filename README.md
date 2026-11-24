@@ -52,15 +52,19 @@
 
 ## 仓库地址
 
+```text
 https://github.com/wanglirong-sketch/aitravel-web
+```
 
 后端仓库：
 
+```text
 https://github.com/wanglirong-sketch/aitravel-server
-
+```
 
 ## 目录结构
 
+```text
 src
 ├── api          # 接口请求封装
 ├── assets       # 静态资源
@@ -69,33 +73,18 @@ src
 ├── stores       # Pinia 状态管理
 ├── views        # 页面组件
 └── utils        # 工具方法
-
+```
 
 ## 本地启动
 
 ### 1. 安装依赖
 
+```bash
 npm install
-
+```
 
 ### 2. 启动开发环境
 
+```bash
 npm run dev
-
-
-前端默认地址：
-
-http://localhost:5173
-
-### 3. 打包构建
-
-npm run build
-
-打包产物输出到 `dist` 目录。
-
-## 接口说明
-
-前端 Axios 请求统一使用 `/api` 前缀。开发环境通过 Vite 代理转发到后端：
-
-前端：http://localhost:5173
-后端：http://localhost:8080
+```
